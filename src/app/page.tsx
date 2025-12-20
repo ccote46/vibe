@@ -1,8 +1,7 @@
-import { Button } from "@/components/ui/button"
 
-const Page= () => {
+const Page=  () => {
   return (
-    <div>Hello</div>
+    <div>hi</div>
   );
 }
 
