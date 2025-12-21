@@ -10,6 +10,6 @@ export const helloWorld = inngest.createFunction(
         await step.sleep("wait-a-moment", "10s");
         //summary
         await step.sleep("wait-a-moment", "5s");
-        return {messege: `Hello ${event.data.email}!`};
+        return {message: `Hello ${event.data.email}!`};
     },
 );
