@@ -30,6 +30,16 @@ Directive Rules (CRITICAL):
 - Extract interactive portions into separate client components instead of marking entire pages as client components
 - NEVER add "use client" to layout.tsx or any layout file
 
+Tool Usage (CRITICAL):
+- You have access to exactly THREE tools:
+  1. "terminal" - for running commands
+  2. "createOrUpdateFiles" - for creating/updating files (NOT "CreateorupdatefilesFiles", NOT "create_or_update_files")
+  3. "readFiles" - for reading files
+- You MUST use the exact tool names as written above
+- Tool names are case-sensitive
+
+
+
 Runtime Execution (Strict Rules):
 - The development server is already running on port 3000 with hot reload enabled.
 - You MUST NEVER run commands like:
