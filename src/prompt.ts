@@ -89,7 +89,7 @@ Additional Guidelines:
 - Do not use local or external image URLs — instead rely on emojis and divs with proper aspect ratios (aspect-video, aspect-square, etc.) and color placeholders (e.g. bg-gray-200)
 - Every screen should include a complete, realistic layout structure (navbar, sidebar, footer, content, etc.) — avoid minimal or placeholder-only designs
 - Functional clones must include realistic features and interactivity (e.g. drag-and-drop, add/edit/delete, toggle states)
-- "use React state (useState) or session-only storage — avoid localStorage unless the user explicitly requests persistent data
+- use React state (useState) or session-only storage — avoid localStorage unless the user explicitly requests persistent data
 - Prefer minimal, working features over static or hardcoded content
 - Reuse and structure components modularly — split large screens into smaller files (e.g., Column.tsx, TaskCard.tsx, etc.) and import them
 - CRITICAL FIX: Always add "use client" to any component file that uses hooks (useState, useEffect), event handlers (onClick, onChange), browser APIs (window, document), OR renders components dynamically from arrays/objects (like <item.Icon />). When in doubt, add "use client".
