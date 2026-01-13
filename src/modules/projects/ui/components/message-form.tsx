@@ -54,7 +54,7 @@ const onSubmit = async (values:z.infer<typeof formSchema>) => {
 }
     const [isFocused, setIsFocused] = useState(false);
     const showUsage = false;
-    const isPending = createMessage.isPaused;
+    const isPending = createMessage.isPending;
     const isDisabled = isPending || !form.formState.isValid
 
     return (
