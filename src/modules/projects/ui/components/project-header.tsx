@@ -26,7 +26,7 @@ export const ProjectHeader = ({ projectId}: Props) => {
     const {setTheme, theme} = useTheme();
 
     return(
-        <header className="p-2 flex justify-between items-cetner border-b">
+        <header className="p-2 flex justify-between items-center border-b">
             <DropdownMenu>
                 <DropdownMenuTrigger asChild>
                     <Button
@@ -51,7 +51,7 @@ export const ProjectHeader = ({ projectId}: Props) => {
                 <DropdownMenuSub>
                     <DropdownMenuSubTrigger className="gap-2">
                         <SunMoonIcon className="size-4 text-muted-foreground"/>
-                        <span>Apperance</span>
+                        <span>Appearance</span>
                     </DropdownMenuSubTrigger>
                     <DropdownMenuPortal>
                         <DropdownMenuSubContent>
