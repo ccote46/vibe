@@ -28,7 +28,7 @@ function getLanguageFromExtension(filename: string): string {
     return extension || "text";
 };
 
-interface FileBreadcrumProps {
+interface FileBreadcrumbProps {
     filePath: string;
 }
 
@@ -146,7 +146,7 @@ export const FileExplorer = ({
                     <div className="h-full w-full flex flex-col">
                         <div className="border-b bg-sidebar px-2 py-4 flex justify-between items-center gap-x-2">
                             <FileBreadcrumb filePath={selectedFile}/>
-                            <Hint text="Copy to clibpoard" side="bottom">
+                            <Hint text="Copy to clipboard" side="bottom">
                                 <Button
                                     variant="outline"
                                     size="icon"
