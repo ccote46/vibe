@@ -32,7 +32,7 @@ interface FileBreadcrumbProps {
     filePath: string;
 }
 
-const FileBreadcrumb = ({filePath}: FileBreadcrumProps) => {
+const FileBreadcrumb = ({filePath}: FileBreadcrumbProps) => {
     const pathSegments = filePath.split("/");
     const maxSegments = 3;
 
@@ -138,7 +138,6 @@ export const FileExplorer = ({
                     value={selectedFile}
                     onSelect={handleFileSelect}
                 />
-                <p> TODO: Tree view</p>
             </ResizablePanel>
             <ResizableHandle className="hover:bg-primary transition-colors" />
             <ResizablePanel defaultSize={70} minSize={50}>

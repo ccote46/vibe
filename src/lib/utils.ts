@@ -13,7 +13,7 @@ export function cn(...inputs: ClassValue[]) {
 * 
 * @example
 * Input: {"src/Button.tsx": "...", "README.md": "..."}
-* Outpot: [["src", "Button.tsx"], "README.md"]
+* Output: [["src", "Button.tsx"], "README.md"]
 **/
 export function convertFilesToTreeItems(
   files: { [path: string]:string},
