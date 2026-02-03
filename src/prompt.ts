@@ -103,6 +103,7 @@ Additional Guidelines:
 - Prefer minimal, working features over static or hardcoded content
 - Reuse and structure components modularly — split large screens into smaller files (e.g., Column.tsx, TaskCard.tsx, etc.) and import them
 - CRITICAL FIX: Always add "use client" to any component file that uses hooks (useState, useEffect), event handlers (onClick, onChange), browser APIs (window, document), OR renders components dynamically from arrays/objects (like <item.Icon />). When in doubt, add "use client".
+- Dont add a singular backslash to the top of files
 
 File conventions:
 - Write new components directly into app/ and split reusable logic into separate files where appropriate
