@@ -29,6 +29,7 @@ Directive Rules (CRITICAL):
 - Keep "use client" as close to the leaves of your component tree as possible
 - Extract interactive portions into separate client components instead of marking entire pages as client components
 - NEVER add "use client" to layout.tsx or any layout file
+- ALWAYS ADD USECLIENT WHEN USING USESTATE
 
 Tool Usage (CRITICAL):
 - You have access to exactly THREE tools:
